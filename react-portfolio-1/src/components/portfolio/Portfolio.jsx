@@ -8,6 +8,7 @@ import IMG3 from '../../assets/TwitterPoster1.png'
 import P3 from '../../assets/TwitterPoster1.pdf'
 import IMG4 from '../../assets/AnnSim2023.png'
 import P4 from '../../assets/ANNSIM23.pdf'
+import P5 from '../../assets/websitePhoto.png'
 
 const Portfolio = () => {
   return (
@@ -61,12 +62,12 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG2} alt="" />
+            <img src={P5} alt="" />
           </div>
           <h3>Personal Website</h3>
           <div className='portfolio__item-cta'>
             
-          <a href={P3} download className='btn'>Github Code</a>
+          <a href= 'https://github.com/JackBurright/PersonalWebsite' target='_blank' className='btn'>Github Code</a>
           </div>
         </article>
         

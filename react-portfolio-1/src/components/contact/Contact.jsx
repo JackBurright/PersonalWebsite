@@ -32,11 +32,11 @@ const Contact = () => {
 
           
 
-          <article className='contact__option'>
+          {/* <article className='contact__option'>
           <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <a href="https://api.whatsapp.com/send?phone=+16514926673" target='_blank'> Send a message</a>
-          </article>
+          </article> */}
         </div>
 
         <form ref={form} onSubmit ={sendEmail}>
